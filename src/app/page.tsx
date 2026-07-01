@@ -8,8 +8,6 @@ import Button from "@/components/Button";
 
 const STORAGE_KEY = "natalie-dates-redeemed";
 
-// TODO: Check rounding
-
 const Home = () => {
   const [current, setCurrent] = useState(0);
   // Pro Karte das Einlöse-Datum (ISO) oder null, wenn nicht eingelöst.
@@ -102,9 +100,6 @@ const Home = () => {
             />
           ))}
         </div>
-        {
-          // TODO: Make all icons rounded
-        }
         <IconButton
           icon="arrow_forward"
           aria-label="Nächste Karte"

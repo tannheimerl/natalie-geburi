@@ -45,8 +45,7 @@ const LoginForm = () => {
       </label>
       <input
         id="password"
-        // TODO: Fix text colour
-        className="w-full p-4 h-[48px] rounded-[8px] border-[1px] border-line bg-white text-navy font-sans text-[16px] transition placeholder:text-[#9A9AA2] focus:outline-none focus:border-navy"
+        className="w-full p-4 h-[48px] rounded-[8px] border-[1px] border-line bg-white text-muted font-sans text-[16px] transition placeholder:text-[#9A9AA2] focus:outline-none focus:border-navy"
         type="password"
         placeholder="Passwort eingeben"
         value={password}
