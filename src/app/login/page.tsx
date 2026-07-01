@@ -3,19 +3,12 @@ import LoginForm from "./LoginForm";
 
 const LoginPage = () => {
   return (
-    <div className="wrap">
-      <div className="masthead">
-        <h1>Für Natalie</h1>
-        <p>Diese Seite ist privat. Gib das Passwort ein, um sie zu öffnen.</p>
-      </div>
-
-      <div className="login-card">
+    <div className="min-h-screen w-full flex flex-col justify-center items-center p-[24px]">
+      <div className="w-full bg-card rounded-[12px] p-[24px] shadow-[0_24px_48px_-16px_theme(colors.shadow)]">
         <Suspense fallback={null}>
           <LoginForm />
         </Suspense>
       </div>
-
-      <footer>jederzeit einlösbar, kein Ablaufdatum</footer>
     </div>
   );
 };

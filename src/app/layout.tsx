@@ -12,22 +12,28 @@ export const viewport: Viewport = {
   initialScale: 1,
 };
 
-const RootLayout = ({
-  children,
-}: {
-  children: React.ReactNode;
-}) => {
+const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <html lang="de">
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
-          href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap"
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="anonymous"
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap"
+          rel="stylesheet"
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,700,0,0&display=block"
           rel="stylesheet"
         />
       </head>
-      <body>{children}</body>
+      <body className="min-h-screen bg-navy bg-[linear-gradient(180deg,#1D2B64_0%,#F8CDDA_100%)] bg-no-repeat font-sans text-navy antialiased">
+        {children}
+      </body>
     </html>
   );
 };
