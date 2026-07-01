@@ -102,6 +102,9 @@ const Home = () => {
             />
           ))}
         </div>
+        {
+          // TODO: Make all icons rounded
+        }
         <IconButton
           icon="arrow_forward"
           aria-label="Nächste Karte"

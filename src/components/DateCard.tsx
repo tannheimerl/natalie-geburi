@@ -17,12 +17,19 @@ const DateCard = ({ date, isDone, redeemedAt }: DateCardProps) => {
   return (
     <div className="w-full h-[420px] shrink-0 bg-card rounded-3xl p-2 flex flex-col overflow-hidden shadow-[0_24px_48px_-16px_theme(colors.shadow)] mob:rounded-[20px]">
       <div className="relative flex-1 min-h-[120px] w-full rounded-2xl overflow-hidden bg-[linear-gradient(135deg,#E9EDF7_0%,#FBE6EC_100%)] flex items-center justify-center">
-        {
-          // TODO: Fix this mess
-        }
+        {date.img && (
+          <img
+            src={date.img}
+            alt={date.title}
+            className="w-full h-full object-cover"
+          />
+        )}
         {isDone && (
-          <div className="absolute top-0 left-0 right-0 flex items-center justify-between gap-2 p-4 bg-white/45 backdrop-blur-[16px] backdrop-saturate-[1.3] border-b border-white/35 text-navy">
+          <div className="absolute top-[2px] left-[2px] right-[2px] flex items-center justify-between gap-[16px] px-[16px] py-[12px] bg-white/60 backdrop-blur-[16px] text-navy rounded-[13px]">
             <span className="flex items-center gap-2 font-bold text-[15px]">
+              {
+                // TODO: Replace with google icon
+              }
               <svg
                 className="inline-flex w-4 h-4"
                 viewBox="0 0 16 16"
@@ -37,10 +44,14 @@ const DateCard = ({ date, isDone, redeemedAt }: DateCardProps) => {
                   strokeLinejoin="round"
                 />
               </svg>
-              Eingelöst
+
+              <span className="text-[14px] font-semibold">Eingelöst</span>
             </span>
+            {
+              // TODO: Fix this texts colour, #5B5C63
+            }
             {redeemedAt && (
-              <span className="text-sm font-medium opacity-[0.85]">
+              <span className="text-[12px]">
                 {formatRedeemedDate(redeemedAt)}
               </span>
             )}
