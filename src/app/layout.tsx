@@ -10,6 +10,8 @@ export const metadata: Metadata = {
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
+  // Damit env(safe-area-inset-*) verfuegbar ist (iPhone Notch/Home-Indicator).
+  viewportFit: "cover",
 };
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {

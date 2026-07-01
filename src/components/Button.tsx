@@ -24,7 +24,7 @@ const Button = ({
 
   return (
     <button
-      className={`flex items-center justify-center h-[40px] border-0 rounded-[8px] font-semibold text-[16px] cursor-pointer transition disabled:cursor-default disabled:opacity-60 motion-reduce:transition-none ${className} ${classes[type]}`}
+      className={`flex items-center justify-center h-[40px] border-0 rounded-[12px] font-semibold text-[16px] cursor-pointer transition disabled:cursor-default disabled:opacity-60 motion-reduce:transition-none ${className} ${classes[type]}`}
       onClick={onClick}
       type={submit ? "submit" : "button"}
       disabled={disabled}
