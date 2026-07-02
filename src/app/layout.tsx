@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Für Natalie · 8 Dates",
+  title: "Für Natalie, zum Geburtstag",
   description: "Acht Eintrittskarten in unsere gemeinsame Zeit.",
   robots: { index: false, follow: false },
 };

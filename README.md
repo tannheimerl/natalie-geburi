@@ -1,12 +1,12 @@
 # Für Natalie — Date-Reisepass 🎟️
 
-Ein kleines Geburtstagsgeschenk: ein passwortgeschützter „Date-Reisepass" mit 8 Date-Ideen
+Ein kleines Geburtstagsgeschenk: ein passwortgeschützter „Date-Reisepass" mit 7 Date-Ideen
 als durchblätterbare Karten im Tinder-Stil. Gebaut mit **Next.js (App Router) + TypeScript**,
 ohne Datenbank, fertig für **Vercel**.
 
 ## Features
 
-- 8 Date-Karten zum Durchwischen (Maus, Finger, Pfeiltasten, Punkte-Navigation)
+- 7 Date-Karten zum Durchwischen (Maus, Finger, Pfeiltasten, Punkte-Navigation)
 - Angedeuteter Kartenstapel dahinter („es kommt noch mehr")
 - „Als eingelöst stempeln" mit handgemachtem Tinten-Stempel-Effekt (SVG)
 - Fortschrittsanzeige + „Alle Stempel zurücksetzen"
