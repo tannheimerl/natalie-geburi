@@ -64,8 +64,8 @@ const Home = () => {
       <div className="mb-[56px] text-white">
         <h1 className="font-bold text-[24px] mb-[16px]">Für Natalie</h1>
         <p className="text-[16px]">
-          Acht Dates für kleine und grosse Momente. Gemeinsame Erinnerungen, die
-          bleiben.
+          Sieben Dates für kleine und grosse Momente. Gemeinsame Erinnerungen,
+          die bleiben.
         </p>
       </div>
 

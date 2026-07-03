@@ -7,7 +7,7 @@ export type DateCard = {
 // TODO: Add images
 export const DATES: DateCard[] = [
   {
-    title: "Gelateria di Berna & Spaziergang",
+    title: "Gelateria di Berna",
     desc: "Ein Glacé aus der besten Gelateria weit und breit, danach schlendern wir gemütlich durch Bern.",
     img: "./dates/gelato.jpg",
   },
@@ -28,17 +28,17 @@ export const DATES: DateCard[] = [
   },
   {
     title: "Zelda-Abend",
-    desc: "Zusammen mit Zelda und Link retten wir Hyrule. Kein Zeitplan, nur wir zwei und eines der besten Games unserer Zeit.",
+    desc: "Zusammen mit Zelda und Link retten wir Hyrule. Nur wir zwei und eines der besten Games unserer Zeit.",
     img: "./dates/zelda.jpg",
   },
   {
     title: "Winterspass in den Bergen",
-    desc: "Eine Winter-Aktivität (z.B. Schlitteln) mit Übernachtung in einem Hotel — wo genau, suchen wir zusammen aus.",
+    desc: "Eine Winter-Aktivität (z.B. Schlitteln) mit Übernachtung in einem Hotel. Wo und was genau, schauen wir noch.",
     img: "./dates/schlitteln.jpg",
   },
   {
     title: "Der Joker",
-    desc: "Du entscheidest komplett frei, was wir machen. Egal was du dir wünschst ich bin da.",
+    desc: "Du entscheidest komplett frei, was wir machen. Egal, was du dir wünschst, ich bin dabei.",
     img: "",
   },
 ];
