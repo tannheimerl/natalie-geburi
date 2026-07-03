@@ -60,7 +60,7 @@ const Home = () => {
   const hasNext = current < DATES.length - 1;
 
   return (
-    <div className="min-h-screen w-full flex flex-col p-[24px]">
+    <div className="w-full flex flex-col p-[24px] pb-[40px]">
       <div className="mb-[56px] text-white">
         <h1 className="font-bold text-[24px] mb-[16px]">Für Natalie</h1>
         <p className="text-[16px]">
@@ -110,7 +110,7 @@ const Home = () => {
       <Button
         type={isDone ? "secondary" : "primary"}
         label={isDone ? "Aufheben" : "Einlösen"}
-        className="mt-auto w-full"
+        className="mt-[64px] w-full"
         onClick={toggleRedeem}
       />
     </div>

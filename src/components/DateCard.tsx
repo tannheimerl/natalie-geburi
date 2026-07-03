@@ -24,8 +24,13 @@ const DateCard = ({ date, isDone, redeemedAt }: DateCardProps) => {
             className="w-full h-full object-cover"
           />
         )}
+        {!date.img && (
+          <span className="material-symbols-rounded !text-[32px] text-navy/50">
+            question_mark
+          </span>
+        )}
         {isDone && (
-          <div className="absolute top-[2px] left-[2px] right-[2px] flex items-center justify-between gap-[16px] px-[16px] py-[12px] bg-white/60 backdrop-blur-[16px] text-navy rounded-[12px]">
+          <div className="absolute top-[2px] left-[2px] right-[2px] flex items-center justify-between gap-[16px] px-[16px] py-[12px] bg-white/70 backdrop-blur-[12px] text-navy rounded-[12px]">
             <div className="flex items-center gap-[8px]">
               <span
                 className="material-symbols-rounded !text-[16px]"

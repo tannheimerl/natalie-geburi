@@ -33,7 +33,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
           rel="stylesheet"
         />
       </head>
-      <body className="min-h-screen bg-navy bg-[linear-gradient(180deg,#1D2B64_0%,#F8CDDA_100%)] bg-no-repeat font-sans text-navy antialiased">
+      <body className="bg-navy bg-[linear-gradient(180deg,#1D2B64_0%,#F8CDDA_100%)] bg-no-repeat font-sans text-navy antialiased">
         {children}
       </body>
     </html>

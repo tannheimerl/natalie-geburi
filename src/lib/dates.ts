@@ -9,32 +9,32 @@ export const DATES: DateCard[] = [
   {
     title: "Gelateria di Berna & Spaziergang",
     desc: "Ein Glacé aus der besten Gelateria weit und breit, danach schlendern wir gemütlich durch Bern.",
-    img: "",
+    img: "./dates/gelato.jpg",
   },
   {
     title: "Nach den Sternen greifen",
     desc: "In einer Sternwarte bei Bern (Space Eye) wagen wir den Blick ins grosse und weite Universum.",
-    img: "",
+    img: "./dates/stargazing.jpg",
   },
   {
     title: "Picknick im Park",
     desc: "Eine Decke, gutes Essen und tiefe Gespräche. Manchmal liegt die Schönheit in der Einfachheit.",
-    img: "",
+    img: "./dates/picnic.jpg",
   },
   {
     title: "Mit dem E-Bike herumdüsen",
     desc: "Eine Runde durch den Englischen Garten und die Umgebung, inklusive einem Snack deiner Wahl.",
-    img: "",
+    img: "./dates/münchen.jpg",
   },
   {
     title: "Zelda-Abend",
     desc: "Zusammen mit Zelda und Link retten wir Hyrule. Kein Zeitplan, nur wir zwei und eines der besten Games unserer Zeit.",
-    img: "",
+    img: "./dates/zelda.jpg",
   },
   {
     title: "Winterspass in den Bergen",
     desc: "Eine Winter-Aktivität (z.B. Schlitteln) mit Übernachtung in einem Hotel — wo genau, suchen wir zusammen aus.",
-    img: "",
+    img: "./dates/schlitteln.jpg",
   },
   {
     title: "Der Joker",
